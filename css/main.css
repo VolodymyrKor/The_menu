@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg.jpg);
+}
+
+header {
+    height: 50px;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+    background-image: url(../images/header_bg.jpg);
+    color: black;
+    font: 30px Verdana;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+}
+
+nav ul {
+    background-color: PaleVioletRed;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+    border: 1px solid MediumVioletRed;
+    float:left;
+    margin-left: 10px;
+    margin-top: 0;
+    font: 20px Verdana;
+}
+
+nav ul li {
+    border-bottom: 1px solid MediumVioletRed;
+    padding: 5px;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+aside ul {
+    border: 1px solid #BD1CDF;
+    background-color: PaleVioletRed;
+    float:right;
+    width: 300px;
+    margin: 0 10px;
+    list-style: none;
+    padding: 0;
+    font: 18px Verdana;
+}
+
+aside ul li {
+    border: 1px solid #BD1CDF;
+    padding: 5px;
+}
+
+aside ul li:last-child {
+    border-bottom: none;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: beige;
+    width: 1000px;
+    margin-left: 220px;
+    outline: 0px solid blue;
+    padding: 5px 15px 5px 10px;
+    margine: 20px 5px;
+}
+
+article h3 {
+    color:#7934DF;
+    text-align: center;
+    font-family: Verdana;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
+
+article section img {
+    width: 350px;
+    height: 263px;
+    margin: 2px auto;
+    border: 3px solid #000000;
+    padding: 3px;
+    align-self: center;
+}
+
+footer {
+    height: 20px;
+    background-image: url(../images/footer.png);
+}
+
+footer p {
+    padding: 3px 15px 0 0;
+    text-align: right;
+    font: 12px Verdana;
+    color: #F6EBBC;
+}
+
+#advertisment {
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.clear {
+    clear: both;
+}
